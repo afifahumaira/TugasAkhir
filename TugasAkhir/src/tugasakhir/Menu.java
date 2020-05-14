@@ -59,12 +59,20 @@ public class Menu extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setText("                                Selamat Datang di ATM Bank RUPT");
+        jLabel1.setFont(new java.awt.Font("AcmeFont", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 153, 0));
+        jLabel1.setText("     Selamat Datang di ATM Bank RUPT");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 384, 19));
 
-        jLabel2.setText("                                 Silakan Pilih Menu Transaksi Anda");
+        jLabel2.setFont(new java.awt.Font("AcmeFont", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel2.setText("      Silakan Pilih Menu Transaksi Anda");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 384, 35));
 
         jButton1.setText("Cek Saldo");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -72,6 +80,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
         jButton2.setText("Transfer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -79,6 +88,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, -1, -1));
 
         jButton3.setText("Tarik Tunai");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -86,6 +96,9 @@ public class Menu extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, -1, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 506, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 506, -1));
 
         jButton4.setText("1");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -93,6 +106,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, -1, -1));
 
         jButton5.setText("2");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -100,6 +114,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 220, -1, -1));
 
         jButton6.setText("3");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -107,6 +122,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, -1, -1));
 
         jButton7.setText("4");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -114,6 +130,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton7ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 250, -1, -1));
 
         jButton8.setText("5");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -121,6 +138,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton8ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
 
         jButton9.setText("6");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -128,6 +146,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton9ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 250, -1, -1));
 
         jButton10.setText("7");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -135,6 +154,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton10ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 280, -1, -1));
 
         jButton11.setText("8");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -142,6 +162,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 280, -1, -1));
 
         jButton12.setText("9");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -149,6 +170,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton12ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 280, -1, -1));
 
         jButton13.setText("Enter");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -156,6 +178,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 310, -1, -1));
 
         jButton14.setText("0");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -163,6 +186,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton14ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 310, -1, -1));
 
         jButton15.setText("Clear");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -170,6 +194,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, -1, -1));
 
         jButton16.setText("Exit");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -177,6 +202,7 @@ public class Menu extends javax.swing.JFrame {
                 jButton16ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 430, -1, -1));
 
         jButton17.setText("Ambil");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -184,117 +210,10 @@ public class Menu extends javax.swing.JFrame {
                 jButton17ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(104, 166, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton12))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton7)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton8)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton9))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton6)))
-                        .addGap(203, 203, 203))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jButton13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton15)
-                        .addGap(185, 185, 185))))
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton16))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
-                                .addGap(127, 127, 127)
-                                .addComponent(jButton2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton3))
-                            .addComponent(jTextField2))))
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(72, 72, 72)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(226, 226, 226)
-                        .addComponent(jButton17)))
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(52, 52, 52))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
-                .addGap(18, 18, 18)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5)
-                    .addComponent(jButton6))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7)
-                    .addComponent(jButton8)
-                    .addComponent(jButton9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton10)
-                    .addComponent(jButton11)
-                    .addComponent(jButton12))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton14)
-                    .addComponent(jButton15)
-                    .addComponent(jButton13))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton17)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
-                .addComponent(jButton16)
-                .addContainerGap())
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tugasakhir/a7476a1127774e27708c3e15c5501366.jpg"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 470));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -478,6 +397,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
